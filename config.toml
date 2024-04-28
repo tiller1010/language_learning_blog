@@ -1,6 +1,6 @@
 # The URL the site will be built for
-#base_url = "https://blog.lingualearn.com"
-base_url = "https://tiller1010.github.io/language_learning_blog"
+base_url = "https://blog.lingualearn.net"
+#base_url = "https://tiller1010.github.io/language_learning_blog"
 theme = "kita"
 
 title = "LinguaLearn Blog"
