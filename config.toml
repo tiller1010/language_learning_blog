@@ -24,3 +24,22 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 
+[[extra.menu]]
+name = "About"
+url = "$BASE_URL/about"
+
+[[extra.menu]]
+name = "Main Site"
+url = "https://www.lingualearn.net"
+
+[extra.profile]
+name = "Blog - LinguaLearn"
+bio = "LinguaLearn is a website where you can practice your language skills with other learners around the world. Read about language learning topics here."
+
+[[extra.profile.social]]
+name = "github"
+url = "https://github.com/tiller1010"
+
+[[extra.profile.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/tyler-j-trout/"
