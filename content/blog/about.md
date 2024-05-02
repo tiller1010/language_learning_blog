@@ -10,5 +10,5 @@ On the LinguaLearn main website, you can...
 - Practice your new skills with language learners around the world.
 - Schedule a time to get real practice with a native speaker.
 
-Why wait to start using your language skills? [Start using the language learn today.](https://www.lingualearn.net)
+Why wait to start using your language skills? [Start using the language today.](https://www.lingualearn.net)
 

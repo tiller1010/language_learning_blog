@@ -35,3 +35,6 @@ Many airports have restaurants and shops where you can order food or buy souveni
 
 ## Conclusion
 Knowing a second language can be a huge advantage when traveling, especially at an airport. It can help you navigate security, interact with other flyers, understand announcements, and order food or shop. Practice your language skills whenever you can, and you will be surprised at how much more enjoyable and stress-free your travel experience can be.
+
+Get a head start before your next trip. Start using the language today: [https://www.lingualearn.net](https://www.lingualearn.net).
+

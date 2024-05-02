@@ -32,3 +32,6 @@ Remember that comprehension is more important than perfection. If you can unders
 
 ## Conclusion
 Language learning is an enjoyable skill to practice, but your brain will find the information unimportant if it does not anticipate using it. Be sure to give yourself a reason to learn the language and practice speaking and writing the language.
+
+Don't let your practice go to waste. Start using the language today: [https://www.lingualearn.net](https://www.lingualearn.net).
+
