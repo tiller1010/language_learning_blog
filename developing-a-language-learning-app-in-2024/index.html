@@ -1,0 +1,332 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    Developing a Language Learning App In 2024 - LinguaLearn Blog
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  <!-- Author -->
+  
+  <meta name="description" content="Why You Should Build a Language Learning App in 2024. At least 30 million people started learning a new language after the Covid-19 pandemic. The number of people learning a new language is expected to grow by 20% in 2024. Here are some ways you can build a great language-learning app in 2024." />
+  <meta name="author" content="Tyler Trout" />
+  
+
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://blog.lingualearn.net/main.css" />
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --bg-dark: #18181b;
+      --header: #e4e4e7;
+      --header-dark: #27272a;
+    }
+  </style>
+
+  
+
+  <!-- Dark Icon -->
+  <link rel="preload" as="image" href="https://blog.lingualearn.net/icons/theme.svg" />
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://blog.lingualearn.net/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://blog.lingualearn.net/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https:&#x2F;&#x2F;blog.lingualearn.net&#x2F;developing-a-language-learning-app-in-2024&#x2F;" />
+
+   <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4FETLJXK4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-V4FETLJXK4');
+  </script> 
+
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header
+  class="header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <a class="text-2xl font-semibold" href="https://blog.lingualearn.net">LinguaLearn Blog</a>
+        <div
+          class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+          role="button"
+          aria-label="Dark"
+        ></div>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // dark theme
+      const setDark = (isDark) => {
+        if (isDark) {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "dark" }));
+          htmlClass.add("dark");
+        } else {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "light" }));
+          htmlClass.remove("dark");
+        }
+        localStorage.setItem("dark", isDark);
+      };
+
+      // init
+      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      if (htmlClass.contains("dark")) {
+        setDark(true);
+      } else {
+        const darkVal = localStorage.getItem("dark");
+        setDark(darkVal ? darkVal === "true" : darkScheme.matches);
+      }
+
+      // listen system
+      darkScheme.addEventListener("change", (event) => {
+        setDark(event.matches);
+      });
+
+      // manual switch
+      const btnDark = document.querySelector(".btn-dark");
+      btnDark.addEventListener("click", () => {
+        setDark(localStorage.getItem("dark") !== "true");
+      });
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://blog.lingualearn.net/about"
+            >About</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://www.lingualearn.net"
+            >Main Site</a
+          >
+        </li>
+        
+      </ul>
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl break-words px-4 pb-16 pt-32 dark:prose-invert"
+    >
+      
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Developing a Language Learning App In 2024</h1>
+    <div class="text-sm antialiased opacity-60">
+  
+  <time>2021-07-26</time>
+  <span class="mx-1">&middot;</span>
+  <span>4min</span>
+  <!---->
+  
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Tyler Trout</span>
+  
+</div>
+
+  </header>
+
+  
+
+  <!-- TOC -->
+  <!---->
+<div class="block-bg mb-12 flex rounded-lg p-2 text-lg">
+  <details>
+    <summary class="cursor-pointer py-1 pl-4">
+      <span>Table of Contents</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://blog.lingualearn.net/developing-a-language-learning-app-in-2024/#developing-a-language-learning-app"
+            >Developing a Language Learning App</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://blog.lingualearn.net/developing-a-language-learning-app-in-2024/#use-characters"
+                >Use characters</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://blog.lingualearn.net/developing-a-language-learning-app-in-2024/#encourage-the-use-of-pop-culture"
+                >Encourage the use of Pop Culture</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://blog.lingualearn.net/developing-a-language-learning-app-in-2024/#use-ai-to-simulate-real-life-conversations"
+                >Use AI to simulate real-life conversations</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://blog.lingualearn.net/developing-a-language-learning-app-in-2024/#focus-on-comprehensibility-over-accuracy"
+                >Focus on comprehensibility over accuracy</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://blog.lingualearn.net/developing-a-language-learning-app-in-2024/#conclusion"
+                >Conclusion</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+</div>
+
+<!---->
+
+  <!-- Content -->
+  <section><h1 id="developing-a-language-learning-app">Developing a Language Learning App</h1>
+<p>At least 30 million people started learning a new language after the Covid-19 pandemic. The number of people learning a new language is expected to grow by 20% in 2024. Here are some ways you can build a great language-learning app in 2024.</p>
+<h2 id="use-characters">Use characters</h2>
+<p>Using different characters can add cultural authenticity to a language-learning experience. In a traditional classroom setting, the only people available to converse with are fellow students and the instructor. This severely limits the types of interactions that one can experience with the language. Some languages, like Korean, use specific honorifics that depend on the social hierarchy of individuals involved in a conversation. For example, a student would not use the imperative or casual forms with a teacher, unless they were performing some type of role-playing activity.</p>
+<p>Your app should include multiple characters, each with their type of relationship with the learner. This allows for a more diverse set of possible interactions. Learners might be exposed to a specific type of interaction, which they would never get the chance to experience in a typical classroom. Without this exposure, learners might have difficulty grasping the appropriate use of these social dynamic rules.</p>
+<h2 id="encourage-the-use-of-pop-culture">Encourage the use of Pop Culture</h2>
+<p>Pop culture is one of the top reasons for enrollment in language learning programs. Knowing how to use Pop Culture in a language learning program can help you attract more students and make them feel more connected to the language.</p>
+<p>Learners who develop their interests in the context of the second language are more likely to continue engaging with the culture after a learning session. Your app should be sprinkled with little nods to the memes and culture of the language your learners are studying.</p>
+<h2 id="use-ai-to-simulate-real-life-conversations">Use AI to simulate real-life conversations</h2>
+<p>In 2023, AI tools like ChatGPT have made significant strides in adoption and popularity. While impressive, there is still much work to be done for AI to be used as an effective language-learning tool. 2024 could be the year that AI chatbots are used to simulate human conversations at a discourse level.</p>
+<p>Using a chatbot to simulate a real-life conversation can help students feel more relaxed and confident when speaking in a foreign language. This can help students overcome their fear of speaking a foreign language in front of native speakers. Your app should include some form of an AI-powered chatbot. This will allow new learners to become more comfortable with the new language before having to use it in front of another human being.</p>
+<h2 id="focus-on-comprehensibility-over-accuracy">Focus on comprehensibility over accuracy</h2>
+<p>Comprehensibility is the ability to be understood by others, which is more important than abiding by the written rules of the language. However, comprehensibility as a subject is difficult to define and make lesson plans out of. It is a topic that includes multiple sub-categories, such as pronunciation, grammar, and even idiomatic slang.</p>
+<p>Pronunciation training in technology is still in its infancy. However, some promising technologies can help students improve their pronunciation. Computer Aided Pronunciation Training (CAPT), can help students become more comprehensible, in a stress-free manner. Many students may be afraid to speak a second language, as they are afraid of embarrassment in front of their peers. CAPT, however, would allow students to practice their pronunciation in a way in which they are not self-conscious of their growing ability.</p>
+<p>Your app should include some form of CAPT. This will allow students to practice their pronunciation in a stress-free environment. This will help them become more comprehensible in the long run. This could be through evaluated recordings or guided audio snippets.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Language learning is a growing industry. The number of people learning a new language has surged in recent years. This trend is expected to continue into 2024. There are many ways you can build a great language-learning app in 2024. You can use characters to add cultural authenticity to your app. You can encourage the use of Pop Culture in your app. You can use AI to simulate real-life conversations. You can focus on comprehensibility over accuracy. These are just some of the ways you can build a great language-learning app in 2024.</p>
+<p>Learning a langauge yourself? Start using the language today: <a href="https://www.lingualearn.net">https://www.lingualearn.net</a>.</p>
+</section>
+
+  <hr />
+
+  <!-- Post Taxonomies -->
+  
+<footer class="mt-12 flex flex-col">
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <div class="mb-2 flex flex-wrap">
+    <span class="block-bg mb-1.5 mr-1.5 rounded-lg px-5 py-1.5">Tags </span>
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://blog.lingualearn.net/tags/ai/"
+      >ai</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://blog.lingualearn.net/tags/language-learning/"
+      >language_learning</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://blog.lingualearn.net/tags/education/"
+      >education</a
+    >
+    
+  </div>
+  
+</footer>
+
+<!---->
+
+  <!-- Post Nav -->
+  
+<!---->
+
+  <!-- Comment -->
+  
+</article>
+
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    &copy;  2024
+    <a class="link" href="https://www.tylertrout.com"
+      >Tyler Trout</a
+    >
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank"
+      >Powered by Zola</a
+    >
+    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ Kita</a>
+  </div>
+</footer>
+
+  </body>
+</html>

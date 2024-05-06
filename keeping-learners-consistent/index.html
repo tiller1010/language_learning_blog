@@ -1,0 +1,325 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    Keeping Learners Consistent - LinguaLearn Blog
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  <!-- Author -->
+  
+  <meta name="description" content="Consistency is key to user retention. A language learning app should encourage consistent use of the app. This should be done in ways that will truly engage users to take action. A reminder email is worthless if it does not remind the user of why they are learning a language to begin with. Using churn surveys is an effective way to determine why users leave your app so that you can work on keeping more of them." />
+  <meta name="author" content="Tyler Trout" />
+  
+
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://blog.lingualearn.net/main.css" />
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --bg-dark: #18181b;
+      --header: #e4e4e7;
+      --header-dark: #27272a;
+    }
+  </style>
+
+  
+
+  <!-- Dark Icon -->
+  <link rel="preload" as="image" href="https://blog.lingualearn.net/icons/theme.svg" />
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://blog.lingualearn.net/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://blog.lingualearn.net/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https:&#x2F;&#x2F;blog.lingualearn.net&#x2F;keeping-learners-consistent&#x2F;" />
+
+   <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4FETLJXK4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-V4FETLJXK4');
+  </script> 
+
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header
+  class="header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <a class="text-2xl font-semibold" href="https://blog.lingualearn.net">LinguaLearn Blog</a>
+        <div
+          class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+          role="button"
+          aria-label="Dark"
+        ></div>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // dark theme
+      const setDark = (isDark) => {
+        if (isDark) {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "dark" }));
+          htmlClass.add("dark");
+        } else {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "light" }));
+          htmlClass.remove("dark");
+        }
+        localStorage.setItem("dark", isDark);
+      };
+
+      // init
+      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      if (htmlClass.contains("dark")) {
+        setDark(true);
+      } else {
+        const darkVal = localStorage.getItem("dark");
+        setDark(darkVal ? darkVal === "true" : darkScheme.matches);
+      }
+
+      // listen system
+      darkScheme.addEventListener("change", (event) => {
+        setDark(event.matches);
+      });
+
+      // manual switch
+      const btnDark = document.querySelector(".btn-dark");
+      btnDark.addEventListener("click", () => {
+        setDark(localStorage.getItem("dark") !== "true");
+      });
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://blog.lingualearn.net/about"
+            >About</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://www.lingualearn.net"
+            >Main Site</a
+          >
+        </li>
+        
+      </ul>
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl break-words px-4 pb-16 pt-32 dark:prose-invert"
+    >
+      
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Keeping Learners Consistent</h1>
+    <div class="text-sm antialiased opacity-60">
+  
+  <time>2024-02-11</time>
+  <span class="mx-1">&middot;</span>
+  <span>4min</span>
+  <!---->
+  
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Tyler Trout</span>
+  
+</div>
+
+  </header>
+
+  
+
+  <!-- TOC -->
+  <!---->
+<div class="block-bg mb-12 flex rounded-lg p-2 text-lg">
+  <details>
+    <summary class="cursor-pointer py-1 pl-4">
+      <span>Table of Contents</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://blog.lingualearn.net/keeping-learners-consistent/#keeping-learners-consistent"
+            >Keeping Learners Consistent</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://blog.lingualearn.net/keeping-learners-consistent/#use-a-streak-system"
+                >Use a streak system</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://blog.lingualearn.net/keeping-learners-consistent/#allow-learners-to-encourage-each-other"
+                >Allow learners to encourage each other</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://blog.lingualearn.net/keeping-learners-consistent/#send-reminders"
+                >Send reminders</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://blog.lingualearn.net/keeping-learners-consistent/#use-a-churn-survey"
+                >Use a churn survey</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://blog.lingualearn.net/keeping-learners-consistent/#conclusion"
+                >Conclusion</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+</div>
+
+<!---->
+
+  <!-- Content -->
+  <section><h1 id="keeping-learners-consistent">Keeping Learners Consistent</h1>
+<p>The most efficient way to learn a new language is to be consistent. A user who consistently uses your language learning app is more likely to become a loyal customer. User retention is a KPI (Key Performance Indicator) that is important to track when gauging the success of a language learning app. A consistent learner is more likely to learn the language and convert into a paying customer.</p>
+<h2 id="use-a-streak-system">Use a streak system</h2>
+<p>A streak system is a great way to encourage consistent use of your app. It is a simple way to reward users for using your app every day and is good for showing users their progress. Few things are as motivating as pre-existing momentum.</p>
+<p>It isn't enough to merely track consecutive days in the app. The user must also be reminded of their streak, especially if the user has yet to renew it for the day. A notification or other clever reminder should capture the attention of a user and motivate them to keep up their consistency. Duolingo for iPhone features an optional widget that gradually dims throughout the day. This creates a sense of urgency for the user to complete their daily goal.</p>
+<h2 id="allow-learners-to-encourage-each-other">Allow learners to encourage each other</h2>
+<p>Learning a language is much more difficult if you do not have someone with whom to speak it with. An app should encourage users to engage with one another. This keeps learners motivated and is a natural way to grow your app's audience.</p>
+<p>Duolingo features a &quot;Friends Quest&quot; feature, in which users complete a challenge together. This is another substantial way to inspire users to use the app consistently. Learners are subtly motivated to compete, as the quest displays each user's contributions, usually as lessons completed.</p>
+<h2 id="send-reminders">Send reminders</h2>
+<p>Sending reminders is a great way to get users to use your app as well. Users should have the option to opt out of reminders, however, there should be a prompt to select the level of notifications to receive when first installing the app or creating an account.</p>
+<p>When sending reminders, it is important to not come across as annoying or &quot;spammy&quot;. The reminders should be sent at a time that is convenient for the user. The reminders should also be sent in a way that engages the user to take action. Each user is different, so the contents of an email must be personalized to the learner. Invoking guilt might be effective for some learners, but for others, it can be highly discouraging.</p>
+<h2 id="use-a-churn-survey">Use a churn survey</h2>
+<p>Knowing why users are leaving your app is essential to understanding how to increase user retention. A churn survey is a great way to gather this information. This is presented to users as they are leaving the app. Churn surveys could be given after removing an account or installing an app.</p>
+<p>Frustrated users will be eager to share their pain points while using your app. These clear responses can lead to concrete actions that will improve user retention. This is preferable to users simply leaving, and not having a reason as to why.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Consistency is key to user retention. A language learning app should encourage consistent use of the app. This should be done in ways that will <strong>truly</strong> engage users to take action. A reminder email is worthless if it does not remind the user of why they are learning a language to begin with. Using churn surveys is an effective way to determine why users leave your app so that you can work on keeping more of them.</p>
+<p>Learning a langauge yourself? Start using the language today: <a href="https://www.lingualearn.net">https://www.lingualearn.net</a>.</p>
+</section>
+
+  <hr />
+
+  <!-- Post Taxonomies -->
+  
+<footer class="mt-12 flex flex-col">
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <div class="mb-2 flex flex-wrap">
+    <span class="block-bg mb-1.5 mr-1.5 rounded-lg px-5 py-1.5">Tags </span>
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://blog.lingualearn.net/tags/education/"
+      >education</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://blog.lingualearn.net/tags/language-learning/"
+      >language_learning</a
+    >
+    
+  </div>
+  
+</footer>
+
+<!---->
+
+  <!-- Post Nav -->
+  
+<!---->
+
+  <!-- Comment -->
+  
+</article>
+
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    &copy;  2024
+    <a class="link" href="https://www.tylertrout.com"
+      >Tyler Trout</a
+    >
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank"
+      >Powered by Zola</a
+    >
+    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ Kita</a>
+  </div>
+</footer>
+
+  </body>
+</html>
